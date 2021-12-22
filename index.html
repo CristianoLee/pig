@@ -11,7 +11,14 @@
 </head>
 
 <body>
+
     <div id="app">
+        <div id="btn">
+            <button @click="fast">快速</button>
+            <button @click="normol">均速</button>
+            <button @click="slow">慢速</button>
+            <button @click="stop">{{type}}</button>
+        </div>
         <ul>
             <!-- <div class="left" @click="prev">
                 <a><img src="/images/left.png"></a>
